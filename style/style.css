@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=SUSE:wght@100..800&display=swap");
+/* ---------------------------Font------------------------------ */
+.fascinate-font {
+  font-family: "Fascinate Inline", system-ui;
+}
+.suse-font {
+  font-family: "SUSE", system-ui;
+}
+/* ---------------------------hover-style-----------------------  */
+.hover-txt:hover {
+  color: yellow !important;
+  cursor: pointer !important;
+}
+.hover-bg:hover {
+  background: yellow !important;
+}
+.hover-icon:hover {
+  background-color: yellow !important;
+  transition: 0.5s ease-in-out;
+}
+.hover-border:hover {
+  border: 1.5px solid black !important;
+  transition: 0.5s ease-in-out;
+  color: black !important;
+}
+.border {
+  border: 2px solid !important;
+}
+
+/* ---------------------------Main content----------------------- */
+/* section hero  */
+main > .hero {
+  width: 100%;
+  background-image: url(../assets/background/hero-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* section upcoming movie  */
+main > .upcoming {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/background/upcoming-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* card movie height  */
+.img {
+  height: 500px;
+}
+/* scroll bar of upcoming movie  */
+.overflow-x-scroll::-webkit-scrollbar {
+  height: 5px;
+  border-radius: 16px;
+}
+.overflow-x-scroll::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 16px;
+}
+.overflow-x-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 16px;
+  outline: 2px solid yellow;
+  outline-offset: 2px;
+}
+/* section download and service  */
+.download-service {
+  background-image: url(../assets/background/service-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icon-service {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  outline: 2px dashed yellow;
+  outline-offset: 4px;
+  cursor: pointer;
+}
+/* section top-rate movie  */
+.Top-rate {
+  background-image: url(../assets/background/top-rated-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* section tvseries */
+.Best-tvseries {
+  background-image: url(../assets/background/tv-series-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* -------------------------footer style-------------------------------*/
+/* form footer  */
+footer > #email-and-text {
+  background-image: url(../assets/background/nav-footer-email.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* nav footer */
+.nav-footer {
+  background-image: url(../assets/background/footer-nav-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ----------------------Responsive */
+@media (min-width: 768px) {
+  .footer-email-form {
+    background-color: white;
+  }
+  .footer-submit-btn {
+    margin: 2px 1px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 80% !important;
+  }
+}
+@media (max-height: 650px) {
+  .small-responsive {
+    padding: 100px 0 !important;
+  }
+}
+@media (min-height: 1050px) {
+  .mid-responsive {
+    padding: 390px 0 !important;
+  }
+}
