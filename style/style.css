@@ -31,7 +31,7 @@
 /* section hero  */
 main > .hero {
   width: 100%;
-  background-image: url(./assets/background/hero-bg.jpg);
+  background-image: url(../assets/background/hero-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -39,7 +39,7 @@ main > .hero {
 main > .upcoming {
   width: 100%;
   height: auto;
-  background-image: url(./assets/background/upcoming-bg.png);
+  background-image: url(../assets/background/upcoming-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -65,7 +65,7 @@ main > .upcoming {
 }
 /* section download and service  */
 .download-service {
-  background-image: url(./assets/background/service-bg.jpg);
+  background-image: url(../assets/background/service-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -81,13 +81,13 @@ main > .upcoming {
 }
 /* section top-rate movie  */
 .Top-rate {
-  background-image: url(./assets/background/top-rated-bg.jpg);
+  background-image: url(../assets/background/top-rated-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 /* section tvseries */
 .Best-tvseries {
-  background-image: url(./assets/background/tv-series-bg.jpg);
+  background-image: url(../assets/background/tv-series-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -95,13 +95,13 @@ main > .upcoming {
 /* -------------------------footer style-------------------------------*/
 /* form footer  */
 footer > #email-and-text {
-  background-image: url(./assets/background/nav-footer-email.jpg);
+  background-image: url(../assets/background/nav-footer-email.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 /* nav footer */
 .nav-footer {
-  background-image: url(./assets/background/footer-nav-bg.jpg);
+  background-image: url(../assets/background/footer-nav-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
