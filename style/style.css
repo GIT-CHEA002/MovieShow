@@ -43,7 +43,7 @@ main > .upcoming {
 
 /* card movie height  */
 .img {
-  height: 500px;
+  height: 560px;
 }
 /* scroll bar of upcoming movie  */
 .overflow-x-scroll::-webkit-scrollbar {
