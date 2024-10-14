@@ -29,9 +29,9 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
-  <body class="container-fluid p-0">
+  <body>
     <header>
-      <div class="container p-0">
+      <div class="container-fluid p-0">
         <!-- navbar  -->
         <nav
           class="navbar fixed-top navbar-expand-lg"
@@ -131,7 +131,7 @@
         <!-- offcanvas navbar  -->
         <div class="offcanvas offcanvas-end bg-dark" id="offcan">
           <div
-            class="offcanvas-header text-light border-bottom d-flex justify-content-between"
+            class="offcanvas-header text-light border-bottom d-flex justify-content-between "
           >
             <a
               href=""
@@ -147,71 +147,72 @@
             </button>
           </div>
           <div class="offcanvas-body p-0">
-            <div class="d-flex border-bottom px-4">
-              <div class="col-6">
-                <ul class="list-unstyled">
+            <div class="d-block ">
+                <ul class="container p-0">
                   <li>
                     <a
                       href=""
-                      class="nav-link text-light hover-txt suse-font py-2 fw-bold"
+                      class="nav-link text-light hover-txt suse-font py-4 fw-bold border-bottom px-4 "
                       >HOME</a
                     >
                   </li>
                   <li>
                     <a
                       href=""
-                      class="nav-link text-light hover-txt suse-font py-2 fw-bold"
+                      class="nav-link text-light hover-txt suse-font py-4 fw-bold border-bottom px-4"
                       >MOVIE</a
                     >
                   </li>
                   <li>
                     <a
                       href=""
-                      class="nav-link text-light hover-txt suse-font py-2 fw-bold"
+                      class="nav-link text-light hover-txt suse-font py-4 fw-bold border-bottom px-4"
                       >TV SHOW</a
                     >
                   </li>
-                </ul>
-              </div>
-              <div class="col-6">
-                <ul class="list-unstyled">
                   <li>
-                    <a
-                      href=""
-                      class="nav-link text-light hover-txt suse-font py-2 fw-bold"
-                      >WEB SERIES</a
-                    >
+                      <a
+                        href=""
+                        class="nav-link text-light hover-txt suse-font py-4 fw-bold border-bottom px-4"
+                        >WEB SERIES</a
+                      >
                   </li>
                   <li>
-                    <a
-                      href=""
-                      class="nav-link text-light hover-txt suse-font py-2 fw-bold"
-                      >PRICING</a
-                    >
+                      <a
+                        href=""
+                        class="nav-link text-light hover-txt suse-font py-4 fw-bold border-bottom px-4"
+                        >PRICING</a
+                      >
                   </li>
                 </ul>
-              </div>
             </div>
-            <div class="d-flex border align-items-center my-3 px-4 rounded-2">
-              <i class="bi bi-search fs-3 text-light"></i>
-              <input
-                type="text"
-                class="border-0 shadow-none form-control bg-transparent text-light"
-                placeholder="Search"
-              />
-            </div>
-            <div>
+            <div class=" d-flex mt-4 ms-4 ">
               <select
                 name=""
                 id=""
-                class="form-select bg-light shadow-none text-start px-2"
+                class="form-select-md rounded-1 border-0 bg-light-subtle shadow-none text-start pe-4 py-2 fw-bolder"
               >
                 <option value="languege">EN</option>
                 <option value="languege">KH</option>
                 <option value="languege">TH</option>
                 <option value="languege">KR</option>
               </select>
+                <div class=" d-flex align-items-center justify-content-between rounded-1  bg-light  fw-bold px-2 ms-4">
+                  <input
+                  type="text"
+                  class="form-control border-0 shadow-none text-dark bg-transparent "
+                  placeholder="Search"
+                />
+                <i class="bi bi-search fs-5 text-dark"></i>
+                </div>
             </div>
+            <ul class="nav text-light  justify-content-between px-2 mt-4 ms-4 me-5">
+                <li><i class=" hover-txt fs-5 bi bi-twitter"></i></li>
+                <li><i class=" hover-txt fs-5 bi bi-facebook"></i></li>
+                <li><i class=" hover-txt fs-5 bi bi-instagram"></i></li>
+                <li><i class=" hover-txt fs-5 bi bi-pinterest"></i></li>
+                <li><i class=" hover-txt fs-5 bi bi-chat"></i></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -366,7 +367,7 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/movie1.jpg"
                         alt=""
@@ -426,7 +427,7 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/movie2.jpg"
                         alt=""
@@ -486,7 +487,7 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/movie3.jpg"
                         alt=""
@@ -546,7 +547,7 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/movie4.jpeg"
                         alt=""
@@ -606,7 +607,7 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/movie5.jpg"
                         alt=""
@@ -666,9 +667,9 @@
                   data-aos-duration="2000"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
-                        src="assets/movie/movie6.jpg"
+                        src="assets/movie/movie6.png"
                         alt=""
                         class="w-100 h-auto object-fit-contain mid-responsive"
                       />
@@ -685,7 +686,7 @@
                         <a
                           href="#"
                           class="col-8 p-0 fs-5 nav-link hover-txt fw-bold text-wrap"
-                          >Opennheimer</a
+                          >Moon Knight</a
                         >
                         <span class="col-4 p-0 text-end text-warning"
                           >2023</span
@@ -725,7 +726,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow1.jpg"
                         alt=""
@@ -780,7 +781,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow2.jpg"
                         alt=""
@@ -835,7 +836,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow3.jpg"
                         alt=""
@@ -890,7 +891,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow4.jpg"
                         alt=""
@@ -945,7 +946,7 @@
               <a href=""
                 ><div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow5.jpg"
                         alt=""
@@ -1000,7 +1001,7 @@
               <a href=""
                 ><div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/tvshow6.jpg"
                         alt=""
@@ -1060,7 +1061,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime1.png"
                         alt=""
@@ -1116,7 +1117,7 @@
               <a href=""
                 ><div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime2.png"
                         alt=""
@@ -1171,7 +1172,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime3.png"
                         alt=""
@@ -1226,7 +1227,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime4.png"
                         alt=""
@@ -1281,7 +1282,7 @@
               <a href="">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime5.png"
                         alt=""
@@ -1336,7 +1337,7 @@
               <a href=""
                 ><div class="col-xl-3 col-lg-4 col-md-6 col-12 px-2 mb-2">
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/anime6.jpg"
                         alt=""
@@ -1488,7 +1489,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie1.jpg"
                         alt=""
@@ -1547,7 +1548,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie2.jpg"
                         alt=""
@@ -1606,7 +1607,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie3.jpg"
                         alt=""
@@ -1665,7 +1666,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie4.jpg"
                         alt=""
@@ -1725,7 +1726,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie5.jpg"
                         alt=""
@@ -1784,7 +1785,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie7.jpg"
                         alt=""
@@ -1843,7 +1844,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie8.jpg"
                         alt=""
@@ -1902,7 +1903,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie10.jpg"
                         alt=""
@@ -1961,7 +1962,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie11.jpg"
                         alt=""
@@ -2020,7 +2021,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie9.jpg"
                         alt=""
@@ -2079,7 +2080,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie12.jpg"
                         alt=""
@@ -2138,7 +2139,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-movie6.jpg"
                         alt=""
@@ -2214,7 +2215,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series1.png"
                         alt=""
@@ -2273,7 +2274,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series2.jpg"
                         alt=""
@@ -2332,7 +2333,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series3.jpg"
                         alt=""
@@ -2390,7 +2391,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series4.jpg"
                         alt=""
@@ -2449,7 +2450,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series5.jpg"
                         alt=""
@@ -2508,7 +2509,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series6.jpg"
                         alt=""
@@ -2567,7 +2568,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series7.jpg"
                         alt=""
@@ -2626,7 +2627,7 @@
                   data-aos-anchor-placement="center-bottom"
                 >
                   <div class="card overflow-hidden border-0 bg-transparent">
-                    <div class="bg-info img rounded-2 overflow-hidden">
+                    <div class="bg-info rounded-2 overflow-hidden">
                       <img
                         src="assets/movie/Top-world-series8.jpg"
                         alt=""
